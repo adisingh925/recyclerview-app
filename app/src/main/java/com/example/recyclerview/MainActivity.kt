@@ -34,8 +34,6 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    val x = 12
-
     val songobjects = mutableListOf<dataclass>()
     val temp = mutableListOf<dataclass>()
     val rcv1 = myadapter(songobjects)
